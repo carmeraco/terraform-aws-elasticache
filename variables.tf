@@ -8,7 +8,7 @@ variable "name" {
 
 variable "repository" {
   type        = string
-  default     = "https://github.com/clouddrove/terraform-aws-elasticache"
+  default     = "https://github.com/carmeraco/terraform-aws-elasticache"
   description = "Terraform current module repo"
 
   validation {
@@ -37,8 +37,8 @@ variable "extra_tags" {
 
 variable "managedby" {
   type        = string
-  default     = "anmol@clouddrove.com"
-  description = "ManagedBy, eg 'CloudDrove' or 'AnmolNagpal'."
+  default     = "carmera.co"
+  description = "Managed by"
 }
 
 variable "enable" {
